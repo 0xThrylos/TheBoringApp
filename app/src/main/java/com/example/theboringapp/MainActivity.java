@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void next(View view) {
         meme();
+        Toast.makeText(MainActivity.this, "Next Meme is Coming", Toast.LENGTH_SHORT).show();
     }
 
     public void share(View view) {
