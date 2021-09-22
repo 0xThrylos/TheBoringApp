@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void next(View view) {
         meme();
-        Toast.makeText(MainActivity.this, "Next Meme is Coming", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(MainActivity.this, "Next Meme is Coming", Toast.LENGTH_SHORT).show();
     }
 
     public void share(View view) {
